@@ -1,0 +1,30 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+# Cache the node_modules folder for faster builds
+[build.environment]
+  NODE_VERSION = "18"
+
+# Headers for PWA support
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+
+# Cache static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Single Page Application (SPA) fallback - not needed for this site but good to have
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
