@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Maestro Owen's Story Time</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#333333">
+
+    <script src="/assets/js/fuse.js"></script>
+    
+    <style>
+        :root { --font-body: system-ui, sans-serif; }
+        body { font-family: var(--font-body); padding: 2rem; max-width: 900px; margin: 0 auto; }
+        .search-container { margin-bottom: 2rem; }
+        .result-card { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; }
+        .badge { background: #333; color: #fff; padding: 2px 6px; font-size: 0.8em; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <h1>Mini Maestro Owen's Story Time</h1>
+    
+    <div class="search-container">
+        <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Search by title, tag, or level..." 
+            style="width: 100%; padding: 12px; font-size: 1.1rem;"
+        >
+    </div>
+
+    <div id="results">
+        <p style="color: #666">Loading search index...</p>
+    </div>
+
+    <script>
+        // 1. CONFIGURATION
+        let fuse;
+        let allData = [];
+        const resultsContainer = document.getElementById('results');
+        const searchInput = document.getElementById('searchInput');
+
+        // 2. FETCH DATA
+        fetch('/search-index.json')
+            .then(res => res.json())
+            .then(data => {
+                allData = data;
+
+                // Initialize Fuse
+                fuse = new Fuse(data, {
+                    keys: [
+                        { name: 'title', weight: 0.5 },
+                        { name: 'tags', weight: 0.3 },
+                        { name: 'level', weight: 0.1 },
+                        { name: 'category', weight: 0.1 }
+                    ],
+                    threshold: 0.3, // Fuzzy sensitivity
+                });
+
+                // Display all results initially
+                displayResults(allData);
+
+                // Enable Input
+                searchInput.addEventListener('input', handleSearch);
+            });
+
+        // Display results helper
+        function displayResults(items) {
+            if (items.length === 0) {
+                resultsContainer.innerHTML = '<p>No results found.</p>';
+                return;
+            }
+
+            const html = items.map(item => {
+                return `
+                    <div class="result-card">
+                        <h3><a href="/pages/${item.slug}/">${item.title}</a></h3>
+                        <div>
+                            <span class="badge">${item.level}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            resultsContainer.innerHTML = html;
+        }
+
+        // 3. REACTIVE HANDLER
+        function handleSearch(e) {
+            const term = e.target.value;
+
+            if (!term) {
+                // Show all results when search is empty
+                displayResults(allData);
+                return;
+            }
+
+            const results = fuse.search(term);
+
+            // Extract items from Fuse.js results
+            const items = results.map(r => r.item);
+            displayResults(items);
+        }
+
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then((registration) => {
+                console.log('Service Worker registered with scope:', registration.scope);
+            }).catch((error) => {
+                console.log('Service Worker registration failed:', error);
+            });
+        }
+    </script>
+</body>
+</html>

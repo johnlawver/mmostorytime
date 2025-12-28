@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "story_1766770387020_40wn06qba",
+    "title_es": "La Entrega Veloz",
+    "title_en": "The Speedy Delivery",
+    "level": "A1",
+    "tags": [
+      "amigos",
+      "aventura",
+      "robots",
+      "ayudar",
+      "aprender"
+    ],
+    "characters": [
+      "Owen",
+      "Plock"
+    ],
+    "date_created": "2025-12-26T17:33:07.021Z"
+  },
+  "content": [
+    {
+      "es": "Owen tiene un paquete especial. Es para su amiga Ana. Plock, el robot de carreras, está listo. Plock es de color naranja y rosa.",
+      "en": "Owen has a special package. It is for his friend Ana. Plock, the racing robot, is ready. Plock is orange and pink."
+    },
+    {
+      "es": "Owen pone el paquete encima de Plock. Es una pelota grande. La pelota es azul y roja. \"Vamos, Plock, rápido!\" dice Owen.",
+      "en": "Owen puts the package on top of Plock. It is a big ball. The ball is blue and red. \"Let's go, Plock, fast!\" says Owen."
+    },
+    {
+      "es": "Plock acelera y va muy rápido por el camino. Owen mira un pequeño mapa. La casa de Ana no está lejos.",
+      "en": "Plock speeds up and goes very fast along the road. Owen looks at a small map. Ana's house is not far."
+    },
+    {
+      "es": "En el parque, ven a un perro. El perro es pequeño y blanco. Corre y juega con una flor amarilla en el césped.",
+      "en": "In the park, they see a dog. The dog is small and white. He runs and plays with a yellow flower on the grass."
+    },
+    {
+      "es": "Llegan a la casa de Ana. La casa es grande y de color amarillo. Owen toca la puerta. \"¡Hola, Ana!\" dice Owen.",
+      "en": "They arrive at Ana's house. The house is big and yellow. Owen knocks on the door. \"Hello, Ana!\" says Owen."
+    },
+    {
+      "es": "Ana abre la puerta y está muy feliz. Ella toma la pelota. \"¡Gracias, Owen y Plock!\" dice Ana con una sonrisa grande.",
+      "en": "Ana opens the door and is very happy. She takes the ball. \"Thank you, Owen and Plock!\" says Ana with a big smile."
+    },
+    {
+      "es": "Owen y Plock son muy buenos amigos. Ellos ayudan a Ana con la entrega. Es una entrega perfecta y rápida.",
+      "en": "Owen and Plock are very good friends. They help Ana with the delivery. It is a perfect and fast delivery."
+    }
+  ],
+  "vocab": [
+    {
+      "es": "paquete",
+      "en": "package"
+    },
+    {
+      "es": "rápido",
+      "en": "fast"
+    },
+    {
+      "es": "robot",
+      "en": "robot"
+    },
+    {
+      "es": "pelota",
+      "en": "ball"
+    },
+    {
+      "es": "camino",
+      "en": "road"
+    },
+    {
+      "es": "mapa",
+      "en": "map"
+    },
+    {
+      "es": "perro",
+      "en": "dog"
+    },
+    {
+      "es": "casa",
+      "en": "house"
+    },
+    {
+      "es": "feliz",
+      "en": "happy"
+    },
+    {
+      "es": "amigos",
+      "en": "friends"
+    },
+    {
+      "es": "ayudar",
+      "en": "to help"
+    },
+    {
+      "es": "entrega",
+      "en": "delivery"
+    }
+  ],
+  "grammar_note": "This story uses the verbs 'ser' and 'estar' to describe things. 'Ser' is used for identity and permanent characteristics, like 'Plock es de color naranja y rosa' (Plock is orange and pink). 'Estar' is used for location and temporary states, such as 'La casa de Ana no está lejos' (Ana's house is not far) or 'Ana está muy feliz' (Ana is very happy)."
+}

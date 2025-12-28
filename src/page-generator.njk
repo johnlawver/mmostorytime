@@ -1,0 +1,37 @@
+---
+pagination:
+  data: pages
+  size: 1
+  alias: p
+permalink: "/pages/{{ p.slug }}/"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ p.title }}</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#333333">
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; }
+    .tag { background: #eee; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <nav><a href="/">← Back to Search</a></nav>
+  
+  <header>
+    <h1>{{ p.title }}</h1>
+    <div>
+      <span class="tag">{{ p.level }}</span>
+    </div>
+  </header>
+
+  <hr />
+
+  <main>
+    {{ p.content | safe }}
+  </main>
+</body>
+</html>

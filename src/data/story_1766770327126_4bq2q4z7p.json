@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "id": "story_1766770327126_4bq2q4z7p",
+    "title_es": "La Mañana de Español de Owen",
+    "title_en": "Owen's Spanish Morning",
+    "level": "A1",
+    "tags": [
+      "amistad",
+      "aprendizaje",
+      "idiomas",
+      "robots",
+      "colores"
+    ],
+    "characters": [
+      "Owen",
+      "Plock"
+    ],
+    "date_created": "2025-12-26T17:32:07.126Z"
+  },
+  "content": [
+    {
+      "es": "Owen se despierta. Es una mañana soleada. \"¡Hola, Owen!\" dice Plock. Plock es un robot amigo.",
+      "en": "Owen wakes up. It is a sunny morning. \"Hello, Owen!\" says Plock. Plock is a robot friend."
+    },
+    {
+      "es": "Plock tiene una idea. \"Vamos a aprender español hoy,\" dice Plock. Owen está muy feliz. \"¡Sí, vamos!\"",
+      "en": "Plock has an idea. \"Let's learn Spanish today,\" says Plock. Owen is very happy. \"Yes, let's go!\""
+    },
+    {
+      "es": "Primero, ven los colores. \"Mira, Owen,\" dice Plock. \"Tu cama es azul. La pelota es roja.\"",
+      "en": "First, they see colors. \"Look, Owen,\" says Plock. \"Your bed is blue. The ball is red.\""
+    },
+    {
+      "es": "Owen mira la ventana. \"El cielo es azul,\" dice Owen. \"Las flores son rojas. ¡Aprendo mucho!\"",
+      "en": "Owen looks at the window. \"The sky is blue,\" says Owen. \"The flowers are red. I learn a lot!\""
+    },
+    {
+      "es": "Después, van a la cocina. \"Comemos fruta aquí,\" dice Plock. \"La manzana es roja. La banana es amarilla.\"",
+      "en": "Next, they go to the kitchen. \"We eat fruit here,\" says Plock. \"The apple is red. The banana is yellow.\""
+    },
+    {
+      "es": "Owen come una manzana. \"¡Qué rico!\" dice. \"Me gusta la fruta.\" Plock sonríe.",
+      "en": "Owen eats an apple. \"How delicious!\" he says. \"I like fruit.\" Plock smiles."
+    },
+    {
+      "es": "\"Ahora, la familia,\" dice Plock. \"Tu mamá es simpática. Tu papá es alto.\" Owen asiente.",
+      "en": "\"Now, family,\" says Plock. \"Your mom is nice. Your dad is tall.\" Owen nods."
+    },
+    {
+      "es": "Owen está contento. \"¡El español es divertido!\" dice. \"Gracias, Plock, mi amigo.\" Plock está feliz también.",
+      "en": "Owen is happy. \"Spanish is fun!\" he says. \"Thank you, Plock, my friend.\" Plock is happy too."
+    }
+  ],
+  "vocab": [
+    {
+      "es": "hola",
+      "en": "hello"
+    },
+    {
+      "es": "mañana",
+      "en": "morning"
+    },
+    {
+      "es": "robot",
+      "en": "robot"
+    },
+    {
+      "es": "aprender",
+      "en": "to learn"
+    },
+    {
+      "es": "azul",
+      "en": "blue"
+    },
+    {
+      "es": "rojo",
+      "en": "red"
+    },
+    {
+      "es": "ventana",
+      "en": "window"
+    },
+    {
+      "es": "cocina",
+      "en": "kitchen"
+    },
+    {
+      "es": "manzana",
+      "en": "apple"
+    },
+    {
+      "es": "familia",
+      "en": "family"
+    },
+    {
+      "es": "amigo",
+      "en": "friend"
+    },
+    {
+      "es": "feliz",
+      "en": "happy"
+    }
+  ],
+  "grammar_note": "In this story, we use the verb \"ser\" (to be) to describe what things are. For example, \"Plock es un robot\" means \"Plock is a robot.\" We also see how adjectives (descriptive words) match the noun they describe in gender, like \"La pelota es roja\" (The ball is red) where 'roja' ends in -a because 'pelota' is feminine, and \"Tu cama es azul\" (Your bed is blue) where 'azul' works for both masculine and feminine nouns."
+}

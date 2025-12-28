@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "story_1766770358600_5g1srht8b",
+    "title_es": "La Aventura de Plock en el Parque",
+    "title_en": "Plock's Park Adventure",
+    "level": "A1",
+    "tags": [
+      "parque",
+      "amigos",
+      "aprender",
+      "colores",
+      "diversión"
+    ],
+    "characters": [
+      "Owen",
+      "Plock"
+    ],
+    "date_created": "2025-12-26T17:32:38.600Z"
+  },
+  "content": [
+    {
+      "es": "Owen y Plock son amigos. Plock es un robot divertido. Hoy van al parque.",
+      "en": "Owen and Plock are friends. Plock is a fun robot. Today they go to the park."
+    },
+    {
+      "es": "Owen quiere aprender español. Plock es su maestro especial. Plock dice: \"¡Vamos, Owen!\"",
+      "en": "Owen wants to learn Spanish. Plock is his special teacher. Plock says: \"Let's go, Owen!\""
+    },
+    {
+      "es": "Ellos ven un árbol grande. \"Mira, Owen, es un árbol verde\", dice Plock. Owen mira el árbol.",
+      "en": "They see a big tree. \"Look, Owen, it is a green tree,\" says Plock. Owen looks at the tree."
+    },
+    {
+      "es": "Después, ven una flor bonita. \"¡Es una flor roja!\" dice Owen. \"¡Muy bien!\" dice Plock con una sonrisa.",
+      "en": "Afterwards, they see a pretty flower. \"It is a red flower!\" says Owen. \"Very good!\" says Plock with a smile."
+    },
+    {
+      "es": "Hay tres pájaros pequeños. Los pájaros son azules. \"Uno, dos, tres pájaros azules\", cuenta Plock. Owen repite.",
+      "en": "There are three small birds. The birds are blue. \"One, two, three blue birds,\" counts Plock. Owen repeats."
+    },
+    {
+      "es": "Owen corre y salta en el parque. Plock lo mira. \"¡Qué divertido!\" dice Plock. El parque es genial.",
+      "en": "Owen runs and jumps in the park. Plock watches him. \"How fun!\" says Plock. The park is great."
+    },
+    {
+      "es": "Owen está muy feliz. Plock también está feliz. Aprender español es una aventura con un amigo robot.",
+      "en": "Owen is very happy. Plock is also happy. Learning Spanish is an adventure with a robot friend."
+    }
+  ],
+  "vocab": [
+    {
+      "es": "amigo",
+      "en": "friend"
+    },
+    {
+      "es": "robot",
+      "en": "robot"
+    },
+    {
+      "es": "parque",
+      "en": "park"
+    },
+    {
+      "es": "aprender",
+      "en": "to learn"
+    },
+    {
+      "es": "mira",
+      "en": "look (command)"
+    },
+    {
+      "es": "árbol",
+      "en": "tree"
+    },
+    {
+      "es": "flor",
+      "en": "flower"
+    },
+    {
+      "es": "roja",
+      "en": "red (feminine)"
+    },
+    {
+      "es": "azul",
+      "en": "blue"
+    },
+    {
+      "es": "pájaros",
+      "en": "birds"
+    },
+    {
+      "es": "corre",
+      "en": "runs (he/she/it)"
+    },
+    {
+      "es": "feliz",
+      "en": "happy"
+    }
+  ],
+  "grammar_note": "This story uses the verb \"ser\" (to be) to describe permanent characteristics, like \"Plock es un robot\" (Plock is a robot). It also shows adjective agreement, meaning adjectives change to match the noun's gender and number. For example, \"árbol verde\" (green tree - masculine singular) but \"flor roja\" (red flower - feminine singular) and \"pájaros azules\" (blue birds - plural)."
+}

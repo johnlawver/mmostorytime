@@ -1,0 +1,14 @@
+---
+permalink: /search-index.json
+---
+[
+  {% for page in pages %}
+  {
+    "title": "{{ page.title | escape }}",
+    "tags": {{ page.tags | dump | safe }},
+    "category": "{{ page.category | escape }}",
+    "level": "{{ page.level | escape }}",
+    "slug": "{{ page.slug }}"
+  }{% if not loop.last %},{% endif %}
+  {% endfor %}
+]

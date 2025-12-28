@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "id": "story_1766770417895_v8zgh6xv8",
+    "title_es": "El Clima en el Jardín",
+    "title_en": "Backyard Weather Watch",
+    "level": "A1",
+    "tags": [
+      "clima",
+      "naturaleza",
+      "aprender",
+      "amistad",
+      "colores"
+    ],
+    "characters": [
+      "Owen",
+      "Plock"
+    ],
+    "date_created": "2025-12-26T17:33:37.895Z"
+  },
+  "content": [
+    {
+      "es": "Owen y Plock están en el jardín. Owen quiere aprender español. Hoy es un día de aventura.",
+      "en": "Owen and Plock are in the garden. Owen wants to learn Spanish. Today is an adventure day."
+    },
+    {
+      "es": "El sol es grande y amarillo. Hace sol. \"¡Sol!\", dice Plock.",
+      "en": "The sun is big and yellow. It is sunny. \"Sun!\", says Plock."
+    },
+    {
+      "es": "Mira, hay nubes blancas. Está nublado. Owen dice \"nubes\".",
+      "en": "Look, there are white clouds. It is cloudy. Owen says \"clouds\"."
+    },
+    {
+      "es": "El viento sopla suave. Los árboles se mueven. Plock dice \"viento\".",
+      "en": "The wind blows gently. The trees move. Plock says \"wind\"."
+    },
+    {
+      "es": "¡Oh, un poco de lluvia! Está lloviendo. Owen dice \"lluvia\".",
+      "en": "Oh, a little rain! It is raining. Owen says \"rain\"."
+    },
+    {
+      "es": "Después de la lluvia, ¡un arcoíris! Es muy bonito. Plock dice \"arcoíris\".",
+      "en": "After the rain, a rainbow! It is very beautiful. Plock says \"rainbow\"."
+    },
+    {
+      "es": "Owen y Plock están contentos. Ellos aprenden palabras nuevas. ¡Aprender es divertido!",
+      "en": "Owen and Plock are happy. They learn new words. Learning is fun!"
+    }
+  ],
+  "vocab": [
+    {
+      "es": "jardín",
+      "en": "garden"
+    },
+    {
+      "es": "aprender",
+      "en": "to learn"
+    },
+    {
+      "es": "sol",
+      "en": "sun"
+    },
+    {
+      "es": "nubes",
+      "en": "clouds"
+    },
+    {
+      "es": "viento",
+      "en": "wind"
+    },
+    {
+      "es": "lluvia",
+      "en": "rain"
+    },
+    {
+      "es": "arcoíris",
+      "en": "rainbow"
+    },
+    {
+      "es": "grande",
+      "en": "big"
+    },
+    {
+      "es": "amarillo",
+      "en": "yellow"
+    },
+    {
+      "es": "bonito",
+      "en": "beautiful"
+    },
+    {
+      "es": "divertido",
+      "en": "fun"
+    },
+    {
+      "es": "hoy",
+      "en": "today"
+    }
+  ],
+  "grammar_note": "This story uses the verb 'ser' for permanent characteristics (El sol es grande) and 'estar' for temporary states like weather (Está nublado, Está lloviendo). Also, it shows the simple present tense for actions (Owen quiere, Plock dice)."
+}

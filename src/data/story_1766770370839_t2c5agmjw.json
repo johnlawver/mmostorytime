@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "id": "story_1766770370839_t2c5agmjw",
+    "title_es": "El Misterio del Juguete Perdido",
+    "title_en": "The Missing Toy Mystery",
+    "level": "A1",
+    "tags": [
+      "amigos",
+      "juguetes",
+      "misterio",
+      "aprendizaje",
+      "diversión"
+    ],
+    "characters": [
+      "Owen",
+      "Plock"
+    ],
+    "date_created": "2025-12-26T17:32:50.839Z"
+  },
+  "content": [
+    {
+      "es": "Owen es un niño curioso. Él quiere aprender español. Su amigo Plock es un robot muy inteligente.",
+      "en": "Owen is a curious boy. He wants to learn Spanish. His friend Plock is a very smart robot."
+    },
+    {
+      "es": "Hoy, Owen busca su juguete favorito. Es un coche azul. \"¿Dónde está mi coche?\" pregunta Owen.",
+      "en": "Today, Owen is looking for his favorite toy. It is a blue car. \"Where is my car?\" Owen asks."
+    },
+    {
+      "es": "Plock ayuda a Owen. \"¡Vamos a buscar!\" dice Plock en español. \"¿Está aquí?\"",
+      "en": "Plock helps Owen. \"Let's go look!\" Plock says in Spanish. \"Is it here?\""
+    },
+    {
+      "es": "Primero, miran en la sala. El sofá es grande. La mesa es pequeña. El coche azul no está en la sala.",
+      "en": "First, they look in the living room. The sofa is big. The table is small. The blue car is not in the living room."
+    },
+    {
+      "es": "Luego, van a la cocina. La cocina es blanca. Hay una manzana roja. El coche azul no está en la cocina.",
+      "en": "Then, they go to the kitchen. The kitchen is white. There is a red apple. The blue car is not in the kitchen."
+    },
+    {
+      "es": "Owen piensa. \"¡Ah! Yo juego fuera,\" dice Owen. \"¡Vamos fuera!\"",
+      "en": "Owen thinks. \"Ah! I play outside,\" Owen says. \"Let's go outside!\""
+    },
+    {
+      "es": "Ellos van al jardín. Hay flores bonitas. Hay un árbol verde.",
+      "en": "They go to the garden. There are pretty flowers. There is a green tree."
+    },
+    {
+      "es": "¡El coche azul está debajo del árbol! Owen está muy contento. \"¡Gracias, Plock! Eres un buen amigo.\"",
+      "en": "The blue car is under the tree! Owen is very happy. \"Thank you, Plock! You are a good friend.\""
+    }
+  ],
+  "vocab": [
+    {
+      "es": "curioso",
+      "en": "curious"
+    },
+    {
+      "es": "juguete",
+      "en": "toy"
+    },
+    {
+      "es": "coche",
+      "en": "car"
+    },
+    {
+      "es": "azul",
+      "en": "blue"
+    },
+    {
+      "es": "buscar",
+      "en": "to look for"
+    },
+    {
+      "es": "sala",
+      "en": "living room"
+    },
+    {
+      "es": "cocina",
+      "en": "kitchen"
+    },
+    {
+      "es": "fuera",
+      "en": "outside"
+    },
+    {
+      "es": "árbol",
+      "en": "tree"
+    },
+    {
+      "es": "contento",
+      "en": "happy"
+    }
+  ],
+  "grammar_note": "This story uses the verb 'estar' to talk about location. 'Estar' means 'to be' and is used for temporary states or locations. For example: \"El coche azul no está en la sala.\" (The blue car is not in the living room.) It also uses basic descriptive adjectives that agree in gender and number with the noun, such as 'coche azul' (blue car) and 'manzana roja' (red apple)."
+}
